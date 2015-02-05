@@ -1,0 +1,61 @@
+
+
+/*
+==============================================
+header, footer and general
+==============================================
+*/
+
+body{
+	padding-top: 50px;
+}
+h1, h2, p, li{
+	font-family: 'Dosis', 'Droid Serif';
+}
+li span{
+	font-size: 1em;
+}
+
+
+/*
+==============================================
+BMI application
+==============================================
+*/
+.container{
+	margin: 100px auto;
+}
+#Metric{
+	display: none;
+}
+#bmi{
+	width: 300px;
+}
+#bmi ul{
+	margin-bottom: 30px;
+}
+#bmi button{
+	margin-top: 15px;
+}
+.bmiImage{
+	width: 200px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+.bmiAlert{
+	font-size: 2em;
+	margin-top: 50px;
+	color: darkred;
+}
+#bmiResult{
+	margin-left: 150px;
+	
+}
+#bmiResult li{
+	font-size: 1.4em;
+}
+.headBmi{
+	margin-top: 50px;
+	color: steelblue;
+	line-height: 1.7em;
+}

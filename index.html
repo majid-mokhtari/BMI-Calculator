@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>
+         Shopping Cart
+      </title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+      <div class="container">
+        <div class="row app">
+          <div class="col-sm-6" id="bmi">
+             <ul class="nav nav-tabs">
+                 <li class="active"><a href="#">English</a></li>
+                 <li><a href="#">Metric</a></li>
+             </ul>
+             <form action="#" id="English">
+                <div class="form-group">
+                    <label for="weight">Weight:</label>
+                    <input type="number" name="weight" id="weight" class="weightEn form-control" placeholder="Enter your weight ..." >
+                    <span>lbs.</span>
+                </div>
+                <div class="form-group">
+                    <label for="height">Height:</label>
+                    <input type="number" name="height" id="height" class="feetEn form-control" placeholder="Enter your height ...">
+                    <span>ft.</span>
+                    <input type="number" name="height" id="height" class="inchEn form-control" placeholder="Enter your height ...">
+                    <span>in.</span>
+                </div>
+                    <button id="calculateEnglish" type="submit" class="submit btn btn-primary"><span class="glyphicon glyphicon-pencil"></span> Calculate</button>
+            </form>
+            <form action="#" id="Metric">
+                <div class="form-group">
+                    <label for="weight">Weight:</label>
+                    <input type="number" name="weight" id="weight" class="weightMe form-control" placeholder="Enter your weight ...">
+                    <span>kg.</span>
+                </div>
+                <div class="form-group">
+                    <label for="height">Height:</label>
+                    <input type="number" name="height" id="height" class="heightMe form-control" placeholder="Enter your height ...">
+                    <span>cm.</span>
+                </div>
+                <button id="calculateMetric" type="submit" class="submit btn btn-primary"><span class="glyphicon glyphicon-pencil"></span> Calculate</button>
+                
+            </form>
+            
+        </div>
+        <div class="col-sm-6 text-center" id="bmiResult">
+            <h3 class="headBmi">Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</h3>
+            <ul>
+               <li class="pull-left">Enter your weight and height using standard or metric measures.</li>
+               <li class="pull-left">Select "Calculate" and your BMI will appear here.</li>
+            </ul>
+        </div>
+    </div>
+   </div>
+
+      <script src="http://code.jquery.com/jquery.min.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
